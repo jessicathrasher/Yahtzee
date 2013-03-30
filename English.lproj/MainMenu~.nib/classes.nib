@@ -1,0 +1,81 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                bonusYahtzeeCheck = id; 
+                cleanUpForNewRoll = id; 
+                newGame = id; 
+                roll = id; 
+                toggleHold = id; 
+                use3Kind = id; 
+                use4Kind = id; 
+                useAces = id; 
+                useChance = id; 
+                useFives = id; 
+                useFours = id; 
+                useFullHouse = id; 
+                useLgStr = id; 
+                useSixes = id; 
+                useSmStr = id; 
+                useThrees = id; 
+                useTwos = id; 
+                useYahtzee = id; 
+            }; 
+            CLASS = YahtzeeController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aces = NSButton; 
+                acesScore = NSTextField; 
+                bonusField = NSTextField; 
+                bonusY1 = NSButton; 
+                bonusY2 = NSButton; 
+                bonusY3 = NSButton; 
+                chance = NSButton; 
+                chanceScore = NSTextField; 
+                dieFive = NSImageView; 
+                dieFour = NSImageView; 
+                dieOne = NSImageView; 
+                dieThree = NSImageView; 
+                dieTwo = NSImageView; 
+                fives = NSButton; 
+                fivesScore = NSTextField; 
+                fourKind = NSButton; 
+                fourKindScore = NSTextField; 
+                fours = NSButton; 
+                foursScore = NSTextField; 
+                fullHouse = NSButton; 
+                fullHouseScore = NSTextField; 
+                grandTotal = NSTextField; 
+                hold1 = NSButton; 
+                hold2 = NSButton; 
+                hold3 = NSButton; 
+                hold4 = NSButton; 
+                hold5 = NSButton; 
+                lgStraight = NSButton; 
+                lgStraightScore = NSTextField; 
+                lowerTotal = NSTextField; 
+                main = NSWindow; 
+                rollButton = NSButton; 
+                rollCountField = NSTextField; 
+                sixes = NSButton; 
+                sixesScore = NSTextField; 
+                smStraight = NSButton; 
+                smStraightScore = NSTextField; 
+                threeKind = NSButton; 
+                threeKindScore = NSTextField; 
+                threes = NSButton; 
+                threesScore = NSTextField; 
+                twos = NSButton; 
+                twosScore = NSTextField; 
+                upperSubtotal = NSTextField; 
+                upperTotal = NSTextField; 
+                yahtzee = NSButton; 
+                yahtzeeBonusScore = NSTextField; 
+                yahtzeeScore = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
