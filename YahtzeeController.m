@@ -97,18 +97,19 @@
 {
 	if (![yahtzee isEnabled] && [yahtzeeScore intValue] == 50)
 	{
-		int i, die;
-		die = currentRoll[0];
-		for (i = 1; i < 5; i++)
+		BOOL isYahtzee = YES;
+        
+		int die = currentRoll[0];
+		for (int i = 1; i < 5; i++)
 		{
 			if (die != currentRoll[i])
 			{
-				die = 0;
+				isYahtzee = NO;
 				break;
 			}
 		}
 	
-		if (die != 0)
+		if (isYahtzee)
 		{
 			if ([bonusY1 state] == 0)
 			{
